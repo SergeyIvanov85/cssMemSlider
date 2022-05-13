@@ -22,7 +22,6 @@ a:hover {
   color: #242724;
 }
 
-
 header,
 footer {
   min-height: 10vh;
@@ -131,7 +130,6 @@ header {
   }
 }
 
-
 .slider__text {
   display: flex;
   overflow: hidden;
@@ -155,7 +153,6 @@ header {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-
 
 .input__radio1:checked~.slider__info .radio1 span,
 .input__radio2:checked~.slider__info .radio2 span,
@@ -192,30 +189,5 @@ header {
 .input__radio4:checked~.slider__info .text4,
 .input__radio5:checked~.slider__info .text5 {
   opacity: 1;
-  font-size: 1em;
-}
-
-
-.footer__list {
-  margin: 2vh auto 2vh;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.footer__item {
-  width: 100%;
-  margin-bottom: 2vh;
-}
-
-@media screen and (min-width: 991px) {
-  .footer__list {
-    text-align: left;
-    flex-wrap: nowrap;
-  }
-
-  .footer__item {
-    width: auto;
-  }
+  font-size: 1.3em;
 }
